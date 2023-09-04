@@ -23,8 +23,8 @@ struct ListRowView: View {
 }
 
 struct ListRowView_Previews: PreviewProvider {
-    static var item1 = itemModel(title: "This is the first item", isCompleted: false)
-    static var item2 = itemModel(title: "This is the second item", isCompleted: true)
+    static var item1 = itemModel(title: "This is the 1 item", isCompleted: false)
+    static var item2 = itemModel(title: "This is the 2 item", isCompleted: true)
     static var previews: some View {
         Group{
             ListRowView(item: item1)
