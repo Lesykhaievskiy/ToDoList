@@ -26,7 +26,7 @@ struct ListView: View {
            
         }
         .listStyle(InsetGroupedListStyle())
-        .navigationTitle("To do List📝")
+        .navigationTitle("To do List✍🏻")
         .navigationBarItems(
             leading: EditButton(),
             trailing: NavigationLink("Add", destination: AddView())

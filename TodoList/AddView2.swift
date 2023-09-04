@@ -46,7 +46,7 @@ struct AddView: View {
     }
     func textIsApproriate() -> Bool{
         if textfieldText.count < 3 {
-            alertTitle = "Oops. Your todo item must be at least 3 characters long"
+            alertTitle = "Your todo item must be at least 3 characters long"
             showAlert.toggle()
             return false
         }
